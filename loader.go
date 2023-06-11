@@ -2,15 +2,14 @@ package godub
 
 import (
 	"fmt"
+	"godub/converter"
+	"godub/wav"
 
 	"bytes"
 
 	"io"
 
 	"io/ioutil"
-
-	"github.com/iFaceless/godub/converter"
-	"github.com/iFaceless/godub/wav"
 )
 
 type Loader struct {

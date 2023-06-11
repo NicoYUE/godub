@@ -1,11 +1,10 @@
 package signals
 
 import (
+	"godub"
 	"time"
 
 	"bytes"
-
-	"github.com/iFaceless/godub"
 )
 
 type SignalGenerator interface {

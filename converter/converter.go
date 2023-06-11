@@ -2,6 +2,7 @@ package converter
 
 import (
 	"fmt"
+	"godub/utils"
 	"io"
 	"io/ioutil"
 	"os"
@@ -9,10 +10,8 @@ import (
 	"runtime"
 	"strings"
 
-	"path"
-
-	"github.com/iFaceless/godub/utils"
 	"github.com/tink-ab/tempfile"
+	"path"
 )
 
 var (

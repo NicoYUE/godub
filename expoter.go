@@ -1,13 +1,12 @@
 package godub
 
 import (
+	"godub/converter"
+	"godub/wav"
 	"io"
 	"os"
 
 	"bytes"
-
-	"github.com/iFaceless/godub/converter"
-	"github.com/iFaceless/godub/wav"
 )
 
 type Exporter struct {

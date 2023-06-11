@@ -2,6 +2,9 @@ package godub
 
 import (
 	"bytes"
+	"godub/audioop"
+	"godub/utils"
+	"godub/wav"
 	"math"
 
 	"fmt"
@@ -9,10 +12,6 @@ import (
 	"encoding/binary"
 
 	"time"
-
-	"github.com/iFaceless/godub/audioop"
-	"github.com/iFaceless/godub/utils"
-	"github.com/iFaceless/godub/wav"
 )
 
 var (

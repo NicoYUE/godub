@@ -1,15 +1,14 @@
 package main
 
 import (
+	"godub"
+	"godub/signals"
 	"time"
 
 	"fmt"
 
 	"path"
 	"runtime"
-
-	"github.com/iFaceless/godub"
-	"github.com/iFaceless/godub/signals"
 )
 
 func main() {
