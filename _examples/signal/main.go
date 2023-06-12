@@ -1,8 +1,8 @@
 package main
 
 import (
-	"godub"
-	"godub/signals"
+	"github.com/NicoYUE/godub"
+	"github.com/NicoYUE/godub/signals"
 	"time"
 
 	"fmt"

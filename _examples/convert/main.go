@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"godub/converter"
+	"github.com/NicoYUE/godub/converter"
 	"log"
 	"os"
 	"path"

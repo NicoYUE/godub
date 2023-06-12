@@ -2,16 +2,15 @@ package converter
 
 import (
 	"fmt"
-	"godub/utils"
+	"github.com/NicoYUE/godub/utils"
+	"github.com/tink-ab/tempfile"
 	"io"
 	"io/ioutil"
 	"os"
 	"os/exec"
+	"path"
 	"runtime"
 	"strings"
-
-	"github.com/tink-ab/tempfile"
-	"path"
 )
 
 var (
@@ -23,10 +22,6 @@ var (
 	FileExtAlias         = map[string]string{
 		"wave": "wav",
 	}
-)
-
-const (
-	FFMPEGEncoder = "ffmpeg"
 )
 
 const (

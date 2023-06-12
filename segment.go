@@ -2,9 +2,9 @@ package godub
 
 import (
 	"bytes"
-	"godub/audioop"
-	"godub/utils"
-	"godub/wav"
+	"github.com/NicoYUE/godub/audioop"
+	"github.com/NicoYUE/godub/utils"
+	"github.com/NicoYUE/godub/wav"
 	"math"
 
 	"fmt"

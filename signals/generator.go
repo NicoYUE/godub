@@ -1,7 +1,7 @@
 package signals
 
 import (
-	"godub"
+	"github.com/NicoYUE/godub"
 	"time"
 
 	"bytes"

@@ -2,8 +2,8 @@ package godub
 
 import (
 	"fmt"
-	"godub/converter"
-	"godub/wav"
+	"github.com/NicoYUE/godub/converter"
+	"github.com/NicoYUE/godub/wav"
 
 	"bytes"
 

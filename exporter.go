@@ -1,8 +1,8 @@
 package godub
 
 import (
-	"godub/converter"
-	"godub/wav"
+	"github.com/NicoYUE/godub/converter"
+	"github.com/NicoYUE/godub/wav"
 	"io"
 	"os"
 
@@ -42,7 +42,7 @@ func (e *Exporter) Export(segment *AudioSegment) error {
 		_, err := io.Copy(w, &wavBuf)
 		return err
 	} else {
-		// Otherwise, convert it to the dst format using ffmpeg.
+		// Otherwise, convert it to the dst format using ffmpeg_osx.
 		return e.converter.WithWriter(w).Convert(&wavBuf)
 	}
 }

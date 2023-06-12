@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"godub/audioop"
+	"github.com/NicoYUE/godub/audioop"
 )
 
 func main() {
